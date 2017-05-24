@@ -10,7 +10,6 @@ margin:0 auto;
 }
 
 .header{
-position:absolute;
 top:20px;
 left:0;
 right:0;
@@ -26,7 +25,7 @@ height:120px;
 }
 .nav{
 float:right;	
-padding-top:20px;
+padding-top:33px;
 }
 .nav li{
 float:left;
@@ -103,16 +102,13 @@ vertical-align: middle;
 .subscribe{
 background:#33adff;	
 height:285px;
+padding-right: 40px;
 }
 .small-box{
 width:50%;
-/*padding-top: 30px;*/
 display:inline-block;
 }
-.small-box img{
-padding-right: 40px;
-vertical-align: middle;
-}
+
 .small-box h3{
 color:#fff;
 font:30px Arial , sans-serif;
@@ -140,6 +136,7 @@ font:18px Arial , sans-serif;
 width:1585px;
 height: 670px;
 }
+
 .flex-box{
 display: inline-flex;
 }
