@@ -137,16 +137,13 @@ width:1585px;
 height: 670px;
 
 }
-.box{
-display: flex;
 
-}
 .featurd-guests h2{
 font-size:33px;
 padding:0 140px;
 text-align: center;
 }
-.flex-box{
+.box{
 display: inline-flex;
 }
 .person{
