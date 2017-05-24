@@ -155,10 +155,19 @@ font:14px Arial , sans-serif;
 .person{
 width:48%;
 }
-
 .foto img{
 width:220px;
 height:140px;
 float:left;
 padding:10px 20px 10px 10px;
+}
+
+.foto{
+width:48%;
+	display:inline-block;
+}
+
+.person-text{
+width:48%;	
+	display:inline-block;
 }
