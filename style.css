@@ -135,17 +135,28 @@ font:18px Arial , sans-serif;
 .featurd-guests{
 width:1585px;
 height: 670px;
-}
 
+}
+.box{
+display: flex;
+
+}
+.featurd-guests h2{
+font-size:33px;
+padding:0 140px;
+text-align: center;
+}
 .flex-box{
 display: inline-flex;
 }
 .person{
-
+width:48%;
+display:inline-block;
 
 }
 .foto img{
 width:220px;
 height:140px;
-
+float:left;
+padding:10px 20px 10px 10px;
 }
