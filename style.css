@@ -1,0 +1,154 @@
+
+ol, ul {list-style:none;}
+/*.container{
+width:1390px;
+margin:0 auto;
+}*/
+.container{
+	width:1310px;
+	margin:0 auto;
+}
+
+.header{
+position:absolute;
+top:20px;
+left:0;
+right:0;
+width:100%;
+padding:10px 0;
+}
+.logo{
+float:left;
+}
+.navbar-header{
+width:1310px;
+height:120px;
+}
+.nav{
+float:right;	
+padding-top:20px;
+}
+.nav li{
+float:left;
+margin-right:40px;
+}
+.nav li:last-child {margin-right:0;}
+.nav a {
+text-decoration: none;
+text-transform:uppercase;
+font: bold 19px Arial;
+color:#b0b0b0;
+}
+.nav a:hover{
+color: #33adff;
+}
+.jumbotron{
+align-items:baseline;
+flex-wrap:wrap;
+}
+.home{
+text-transform: uppercase;
+height:200px;
+padding:50px 0 270px 0;
+text-align:center;
+color:#fff;
+background: url(images/02.png) no-repeat center ;
+-webkit-background-size:cover;
+-moz-background-size:cover;
+-o-background-size:cover;
+background-size:cover;
+}
+.home h2{
+font:40px/40px Arial, sans-serif;
+margin-bottom:40px;
+}
+.home h1{
+font:75px/75px Arial, sans-serif;
+}
+.btn{
+text-transform:uppercase;
+width:275px;
+height:65px;
+padding:0px 60px;
+display:inline-block;
+font:bold 24px Arial , sans-serif;
+cursor:pointer;
+background-color:#33adff;
+color:#fff;
+-webkit-border-radius:3px;
+-moz-border-radius:3px;
+-o-border-radius:3px;
+border-radius:3px;
+}
+.buttons{
+padding:5px 2px;
+ }
+ .news-chan{
+display: flex;
+justify-content: space-between;
+align-items:center; 
+}
+.news-chan h4{
+text-transform: uppercase;
+font:bold 24px Arial , sans-serif;
+}
+.news-chan img{
+width:160px;
+height:57px;
+vertical-align: middle;
+}
+.news:hover{
+	border: 3px dashed  #33adff;
+}
+.subscribe{
+background:#33adff;	
+height:285px;
+}
+.small-box{
+width:50%;
+/*padding-top: 30px;*/
+display:inline-block;
+}
+.small-box img{
+padding-right: 40px;
+vertical-align: middle;
+}
+.small-box h3{
+color:#fff;
+font:30px Arial , sans-serif;
+}
+.art-text{
+width: 50%;
+float: right;
+margin-top:20px;
+}
+.art-text h3{
+color:#fff;
+font: 24px Arial , sans-serif;
+}
+.art-text ul{
+padding-left: 20px;
+list-style-type: disc;
+display: block;
+}
+.art-text li{
+padding-top: 5px;
+color:#fff;
+font:18px Arial , sans-serif;
+}
+.featurd-guests{
+width:1585px;
+height: 670px;
+}
+.flex-box{
+display: inline-flex;
+}
+.person{
+
+
+}
+.foto img{
+width:220px;
+height:140px;
+
+}
