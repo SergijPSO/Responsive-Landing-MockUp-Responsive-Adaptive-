@@ -1,14 +1,10 @@
 
 ol, ul {list-style:none;}
-/*.container{
-width:1390px;
-margin:0 auto;
-}*/
-.container{
-	width:1310px;
-	margin:0 auto;
-}
 
+.container{
+width:1310px;
+margin:0 auto;
+}
 .header{
 top:20px;
 left:0;
@@ -82,7 +78,7 @@ border-radius:3px;
 .buttons{
 padding:5px 2px;
  }
- .news-chan{
+.news-chan{
 display: flex;
 justify-content: space-between;
 align-items:center; 
@@ -108,7 +104,6 @@ padding-right: 40px;
 width:50%;
 display:inline-block;
 }
-
 .small-box h3{
 color:#fff;
 font:30px Arial , sans-serif;
@@ -135,22 +130,32 @@ font:18px Arial , sans-serif;
 .featurd-guests{
 width:1585px;
 height: 670px;
-
 }
-
+.person a:hover{
+color: #b0b0b0;
+}
+.person a{
+text-decoration: none;
+font: bold 19px Arial;
+color:#33adff;
+}
 .featurd-guests h2{
 font-size:33px;
 padding:0 140px;
 text-align: center;
 }
 .box{
-display: inline-flex;
+display: flex;
+}
+.box p{
+line-height: 0.3;
+color:#666;
+font:14px Arial , sans-serif;
 }
 .person{
 width:48%;
-display:inline-block;
-
 }
+
 .foto img{
 width:220px;
 height:140px;
